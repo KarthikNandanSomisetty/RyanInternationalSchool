@@ -1,0 +1,133 @@
+<style>
+ul {
+	list-style-type:none;
+	padding:2px;
+}
+ul li {
+	display : block;
+	float:left;
+}
+li ul{
+	display:none;
+}
+ul li a{
+	display:block;
+	background-color:#007689;
+	padding:10px;
+	text-decoration:none;
+	color:white;
+	
+	width:100px;
+	height:30px;
+	margin-top:0px;
+	border:2px solid red;
+}
+ul li a:hover{
+	background-color:#007689;
+	color:white;
+}
+li:hover ul{
+	display:block;
+	position:absolute;
+}
+li:hover li{
+	float:none;
+}
+li:hover a{
+	background-color:#94c548;
+	color:black;
+}
+li:hover lia :hover{
+	background:black;
+	width:100px;
+}
+
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background:linear-gradient(to right, #73092b,#e80951);
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#tennis {
+    color: #FFFFFF;
+    bottom: 0;
+    background:linear-gradient(to right, #f00c67,#fab4d0);
+    display: table;
+    width: 100%;
+    height: 40%;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#science {
+    color: #FFFFFF;
+    bottom: 0;
+    background:linear-gradient(to right, #f00c67,#fab4d0);
+    display: table;
+    width: 100%;
+    height: 40%;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#sof {
+    color: #FFFFFF;
+    bottom: 0;
+    background:#E01BBE;
+    display: table;
+    width: 100%;
+    height: 40%;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#cyber {
+    color: #FFFFFF;
+    bottom: 0;
+    background-color:#E86FEA;	
+    display: table;
+    width: 100%;
+    height: 40%;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#ryan {
+    color: #FFFFFF;
+    bottom: 0;
+    background:linear-gradient(to right, #73092b,#e80951);
+    display: table;
+    width: 100%;
+    height: 30%;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#About {
+    color: black;
+    bottom: 0;
+    background:linear-gradient(to right, #f00c67,#fab4d0);
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#Campus{
+   font-family: 'Cinzel Decorative', cursive; 
+    color:black;
+    background:linear-gradient(to right, #f00c67,#fab4d0);
+}
+#Achievements{
+   font-family: 'Cinzel Decorative', cursive; 
+    color:black;
+    background:linear-gradient(to right, #f00c67,#fab4d0);
+}
+
+#Learning{
+   font-family: 'Cinzel Decorative', cursive; 
+    color:black;
+    background:linear-gradient(to right, #f00c67,#fab4d0);
+}
+
+#Leadership{
+   font-family: 'Cinzel Decorative', cursive; 
+    color:black;
+    background:linear-gradient(to right, #f00c67,#fab4d0);
+}
+
+
+</style>
